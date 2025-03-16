@@ -1,0 +1,127 @@
+*{
+    font-family: "Poppins", serif;
+    font-style: normal;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+
+body{
+    line-height: 1.6;
+    min-height: 100vh;
+    background-image: url(img/eolica.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.header{
+    background-image: linear-gradient(90deg, rgb(1,48,30), rgb(16, 96, 56), rgba(47, 154, 84, 0.24)); 
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.header img{
+    height: 250px;
+}
+
+.nav{
+    background-image: linear-gradient(90deg, rgb(1,48,30), rgb(16, 96, 56), rgba(47, 154, 84, 0.24)); 
+    backdrop-filter: blur(5px);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    Height: 30PX;
+    margin-top: 0;
+   }
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav :hover{
+    color: rgb(52, 22, 22);
+    
+}
+.nav :focus{
+    color: yellow;
+
+}
+
+
+
+
+.encabezado h1{
+    font-size: 100px; 
+    text-align: center; 
+}
+.encabezado p{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.logo p{
+    font-size: 30px;
+    text-align: justify;
+}
+
+.logo {
+    display: flex;
+    height: 300px;
+    
+    background-image: url(img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fondo p{
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 20px;
+    font-size: 25px;
+    background-color: rgba(25, 177, 58, 0.28);
+    backdrop-filter: blur(5px); 
+}
+
+#beneficio{
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 20px; 
+}
+
+.boton{
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.boton:hover{
+    background-image: linear-gradient(90deg, rgb(1,48,30), rgb(16, 96, 56), rgb(47,154,85));
+    color: bisque; 
+}
+
+
+
+
+
+.footer{
+    
+    background-image: linear-gradient(90deg, rgb(1,48,30), rgb(16, 96, 56), rgb(47,154,85)); 
+    margin-top: 10%;
+    height: 100px;
+
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+
+    color: white;
+    text-align: right;
+}
